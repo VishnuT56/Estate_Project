@@ -71,7 +71,7 @@ const Contact = () => {
             name="Message" placeholder='Enter Message' required></textarea>
           </div>
 
-          <button className='bg-yellow-500 text-white py-2 px-10 mb-10 cursor-pointer rounded-2xl hover:bg-violet-500'>
+          <button className='bg-yellow-500 text-white py-2 px-10 mb-10 cursor-pointer rounded-2xl hover:bg-violet-500 hover:shadow-lg hover:shadow-blue-400'>
             {result ? result : "Send Message"}
           </button>
         </form>

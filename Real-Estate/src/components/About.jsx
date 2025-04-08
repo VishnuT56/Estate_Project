@@ -45,7 +45,7 @@ const About = () => {
                   Then  to succes meet client and seuttable Houses 
                 </p>
 
-                <button className='bg-red-600 text-white px-8 py-2 rounded-2xl cursor-pointer hover:bg-fuchsia-600'>Learn more</button>
+                <button className='bg-red-600 text-white px-8 py-2 rounded-2xl cursor-pointer hover:bg-fuchsia-600 hover:shadow-lg hover:shadow-amber-400'>Learn more</button>
 
             </div>
         </div>

@@ -33,7 +33,7 @@ const Navbar = () => {
                 <a href='#Testimonials' className='cursor-pointer hover:text-yellow-500'>Testimonials</a>
 
             </ul>
-            <button className='hidden cursor-pointer md:block bg-white px-8 py-2 rounded-full hover:bg-blue-400'>Sign up</button>
+            <button className='hidden cursor-pointer md:block bg-white px-8 py-2 rounded-full hover:bg-blue-400 hover:shadow-lg hover: shadow-fuchsia-400 '>Sign up</button>
             <img onClick={() => setShowMobileMenu(true)} src={assets.menu_icon} className='md:hidden w-7 cursor-pointer' alt="" />
         </div>
 
